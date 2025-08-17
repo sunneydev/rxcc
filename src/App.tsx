@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { FileExplorer } from "./components/FileExplorer";
+import { render } from "ink";
 
 export function App() {
   useEffect(() => {
@@ -10,3 +11,5 @@ export function App() {
 
   return <FileExplorer />;
 }
+
+render(<App />);
