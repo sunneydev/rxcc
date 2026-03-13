@@ -2,7 +2,7 @@
   "name": "rxcc",
   "module": "index.ts",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin": {
     "rxcc": "dist/App.js"
   },
@@ -15,6 +15,9 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "overrides": {
+    "onetime": "^6.0.0"
   },
   "dependencies": {
     "ink": "^6.2.0",
